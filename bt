@@ -1,168 +1,84 @@
-<div style="background: linear-gradient(90deg, #1E2428 0%, #343E45 100%);">
+<div style="background: #ffffff; border: 2px solid #ffb6c1; border-radius: 10px; padding: 20px; box-shadow: 0 2px 5px rgba(255,182,193,0.5); text-align: center;">
   <div class="u-container-content u-pd-top-3 u-pd-bottom-3">
-    
-    <!-- Начало нового волшебного кода -->
     <div class="header">
       <p class="logo">Capybara Princess</p>
-      <div class="button">Узнать чудо</div>
+      <div class="button" id="wonderButton">Узнать чудо</div>
     </div>
-
-    <!-- Милая капибара – пусть её образ направляет твой путь -->
-    <img class="image" src="https://source.unsplash.com/featured/?capybara" alt="Милая капибара">
-
-    <div class="advice">
-      <span>Не просто кодить, а мечтать!</span>
+    <img class="image" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22400%22%20viewBox%3D%220%200%20124%20124%22%20fill%3D%22none%22%3E%3Crect%20width%3D%22124%22%20height%3D%22124%22%20rx%3D%2224%22%20fill%3D%22%23F97316%22%2F%3E%3Cpath%20d%3D%22M19.375%2036.7818V100.625C19.375%20102.834%2021.1659%20104.625%2023.375%20104.625H87.2181C90.7818%20104.625%2092.5664%20100.316%2090.0466%2097.7966L26.2034%2033.9534C23.6836%2031.4336%2019.375%2033.2182%2019.375%2036.7818Z%22%20fill%3D%22white%22%2F%3E%3Ccircle%20cx%3D%2263.2109%22%20cy%3D%2237.5391%22%20r%3D%2218.1641%22%20fill%3D%22black%22%2F%3E%3Crect%20opacity%3D%220.4%22%20x%3D%2281.1328%22%20y%3D%2280.7198%22%20width%3D%2217.5687%22%20height%3D%2217.3876%22%20rx%3D%224%22%20transform%3D%22rotate(-45%2081.1328%2080.7198)%22%20fill%3D%22%23FDBA74%22%2F%3E%3C%2Fsvg%3E" alt="Capybara SVG">
+    <div class="advice" id="adviceBlock">
       <span class="phrase">Открыть мир сказки!</span>
       <img class="cursor" src="https://code.s3.yandex.net/web-code/cursor.gif" alt="Мигающий курсор">
     </div>
-
     <p class="footer">© 2025 Capy Love</p>
-    <!-- Конец нового волшебного кода -->
-
   </div>
 </div>
-
 <style>
-  /* Оригинальные стили блока, чтобы Сила стиля не покинула нас */
-  .u-title {
-      margin: 0 auto;
-      font-weight: 900;
-      line-height: 120%;
-      background-image: linear-gradient(90deg, #9e86f3 11.92%, #00b4d8 50.58%, #32e875 90.05%, #9e86f3 100%);
-      background-size: 200% auto;
-      background-position: 0% 50%;
-      -webkit-background-clip: text;
-      background-clip: text;
-      color: transparent;
-      animation: u-textflow 5s infinite reverse linear backwards;
-  }
-  @media screen and (max-width: 25.8125rem) {
-      .u-title {
-          padding-left: 0.5rem;
-          padding-right: 0.5rem;
-          font-size: 1.75rem;
-      }
-  }
-  @media screen and (min-width: 25.875rem) and (max-width: 47.9375rem) {
-      .u-title {
-          padding-left: 0.625rem;
-          padding-right: 0.625rem;
-          font-size: 1.875rem;
-      }
-  }
-  @media screen and (min-width: 48rem) and (max-width: 63.9375rem) {
-      .u-title {
-          max-width: 83.3333333%;
-          font-size: 2rem;
-      }
-  }
-  @media screen and (min-width: 64rem) {
-      .u-title {
-          max-width: 66.6666667%;
-          font-size: 2.25rem;
-      }
-  }
-  @keyframes u-textflow {
-      0% {
-          background-position: 0% center;
-      }
-      100% {
-          background-position: 200% center;
-      }
-  }
-
-  /* Стили нового кода – пусть волшебство всегда будет с тобой */
   @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
-
   .header {
       display: flex;
-      align-items: baseline;
+      align-items: center;
       justify-content: space-between;
-      background-color: #add8e6;
+      background-color: #ffe6f2;
       padding: 10px 20px;
       border-radius: 10px;
   }
   .logo {
+      font-family: 'Dancing Script', cursive;
       font-weight: bold;
       font-size: 24px;
-      margin: 0;
       color: #ff69b4;
   }
   .button {
       width: 130px;
       height: 40px;
-      padding-top: 10px;
-      box-sizing: border-box;
-      border: 1px solid #ff69b4;
+      line-height: 40px;
       text-align: center;
-      font-size: 14px;
-      cursor: pointer;
-      transition: opacity 0.2s;
+      border: 1px solid #ff69b4;
       background-color: #ffb6c1;
       border-radius: 5px;
+      font-size: 14px;
+      color: #ffffff;
+      cursor: pointer;
+      transition: opacity 0.2s;
   }
   .button:hover {
       opacity: 0.8;
   }
   .image {
       width: 80%;
+      max-width: 300px;
       display: block;
-      margin: 60px auto 50px;
+      margin: 20px auto;
       border: 5px solid #ff69b4;
       border-radius: 10px;
   }
   .advice {
+      font-family: 'Dancing Script', cursive;
       font-size: 42px;
       font-weight: bold;
-      line-height: 1.1;
-      margin-bottom: 70px;
-      color: #333;
+      text-align: center;
+      color: #ff69b4;
   }
   .footer {
       font-size: 16px;
-      margin: 0;
       text-align: center;
       color: #ff69b4;
   }
 </style>
-
 <script>
-  // Мудрость кода хранится здесь – выбирай случайные фразы, как судьба направляет тебя
-  let phrases = [
-    { text: 'Пусть сегодняшний день будет наполнен волшебством и радостью!', image: 'https://source.unsplash.com/featured/?pink,flower' },
-    { text: 'Ты сияешь, как Розовая Пантера!', image: 'https://source.unsplash.com/featured/?pink,sunrise' },
-    { text: 'Каждый миг — это маленькое чудо!', image: 'https://source.unsplash.com/featured/?butterfly' },
-    { text: 'Жизнь — сказка, и ты — её героиня!', image: 'https://source.unsplash.com/featured/?fairytale' },
-    { text: 'Мир вокруг так прекрасен, когда ты улыбаешься!', image: 'https://source.unsplash.com/featured/?happy,smile' },
-    { text: 'Смелость, нежность и сила — твои лучшие качества!', image: 'https://source.unsplash.com/featured/?pink,heart' },
-    { text: 'Волшебство начинается с улыбки!', image: 'https://source.unsplash.com/featured/?magic,wand' },
-    { text: 'Пусть каждый цветок напомнит тебе о твоей красоте!', image: 'https://source.unsplash.com/featured/?roses' },
-    { text: 'Сегодня для тебя — только радость и мечты, как розовые облака!', image: 'https://source.unsplash.com/featured/?pink,clouds' },
-    { text: 'Счастье и любовь наполнят твой мир, как весенние цветы!', image: 'https://source.unsplash.com/featured/?spring,flowers' }
-  ];
-
-  function getRandomElement(arr) {
-      return arr[Math.floor(Math.random() * arr.length)];
-  }
-
-  let button = document.querySelector('.button');
-  let phraseElem = document.querySelector('.phrase');
-  let advice = document.querySelector('.advice');
-
-  button.addEventListener('click', function () {
-      let randomElement = getRandomElement(phrases);
-      // Обновляем мудрые слова – да озарят они твой путь!
-      phraseElem.textContent = randomElement.text;
-      // Подбираем размер шрифта, как меру истинного вдохновения
-      advice.style.fontSize = randomElement.text.length > 40 ? '33px' : '42px';
-      // Если бонусная ссылка ещё не создана – даруем её, как секреты Силы
-      if (!phraseElem.querySelector('a')) {
-          let link = document.createElement('a');
-          link.href = 'http://bonustime.ru';
-          link.target = '_blank';
-          link.style.marginLeft = '10px';
-          link.textContent = "Узнать больше";
-          phraseElem.appendChild(link);
-      }
-  });
+  (function(){
+      var phrases = [
+          { text: 'Пусть сегодняшний день будет наполнен волшебством и радостью!' },
+          { text: 'Ты сияешь, как Розовая Пантера!' },
+          { text: 'Каждый миг — это маленькое чудо!' },
+          { text: 'Жизнь — сказка, и ты — её героиня!' },
+          { text: 'Мир вокруг так прекрасен, когда ты улыбаешься!' }
+      ];
+      var button = document.getElementById('wonderButton');
+      var phraseElem = document.querySelector('.phrase');
+      button.addEventListener('click', function(){
+          var randomIndex = Math.floor(Math.random() * phrases.length);
+          phraseElem.textContent = phrases[randomIndex].text;
+      });
+  })();
 </script>
