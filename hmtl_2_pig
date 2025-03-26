@@ -1,0 +1,87 @@
+<div style="background: #ffffff; border: 2px solid #ffb6c1; border-radius: 10px; padding: 20px; box-shadow: 0 2px 5px rgba(255,182,193,0.5); text-align: center; max-width: 400px; margin: 0 auto;">
+  <div class="u-container-content u-pd-top-3 u-pd-bottom-3">
+    <div class="header">
+      <p class="logo">Capybara Princess</p>
+      <div class="button" id="wonderButton">
+        Узнать чудо
+      </div>
+    </div><img class="image" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBMaWNlbnNlOiBNSVQuIE1hZGUgYnkgZGVzaWdubW9kbzogaHR0cHM6Ly9naXRodWIuY29tL2Rlc2lnbm1vZG8vRmxhdC1VSSAtLT4KPHN2ZyB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9Ii0xNy41IC0wLjAyNyA5OS45OTcgOTkuOTk3IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48cGF0aCBmaWxsPSIjRDQ4QTZEIiBkPSJNMTguMDEzIDcwLjk3M2gtOGMtMS4xMDQgMC0yIC45NjEtMiAyLjE0NnYyNC43MDVjMCAxLjE4Ni44OTYgMi4xNDYgMiAyLjE0Nmg4YzEuMTA0IDAgMi0uOTY0IDItMi4xNDZWNzMuMTIxYy0uMDAxLTEuMTg3LS44OTYtMi4xNDgtMi0yLjE0OHptMzcuOTgxIDBoLTcuOTk5Yy0xLjEwNCAwLTIgLjk2MS0yIDIuMTQ2djI0LjcwNWMwIDEuMTg2Ljg5NiAyLjE0NiAyIDIuMTQ2aDcuOTk5YzEuMTA0IDAgMS45OTktLjk2NCAxLjk5OS0yLjE0NlY3My4xMjFjMC0xLjE4Ny0uODkzLTIuMTQ4LTEuOTk5LTIuMTQ4eiIvPjxwYXRoIGZpbGw9IiNERjkyNzQiIGQ9Ik01OC43OSA0Mi4xOTVjMi45MDMtMy42OSA0LjIxLTkuNzMzIDQuMjEtOS43MzNsLTEzLjQ3My05LjQ4N3MtMS4yMDcgNC43MTMtMS40ODUgOS43NzRhMzEuNDcyIDMxLjQ3MiAwIDAgMC0xNS4wMTEtMy43NzRjLTUuNzk5IDAtMTEuMjk1IDEuNTQ2LTE2LjA4NCA0LjIyNy0uMjI4LTUuMjI5LTEuNTAzLTEwLjIyNy0xLjUwMy0xMC4yMjdMMiAzMi40NjFzMS4zNjIgNi4zMjIgNC4zOTkgOS45ODJDMi4zOTQgNDcuODEyIDAgNTQuMzkxIDAgNjEuNDUxYzAgMTcuNzQyIDE1LjA4MyAzMi41MjEgMzMuMDMyIDMyLjUyMSAxNy45NSAwIDMxLjk2OC0xNC43NTcgMzEuOTY4LTMyLjUgMC03LjE3NC0yLjI5My0xMy44NTctNi4yMS0xOS4yNzd6Ii8+PHBhdGggZmlsbD0iI0U5QjM5RSIgZD0iTTMyLjUgNTMuOTczYzYuOTAyIDAgMTIuNSA0LjQ3OSAxMi41IDEwcy01LjU5OCAxMC0xMi41IDEwYy02LjkwMyAwLTEyLjUtNC40NzktMTIuNS0xMHM1LjU5Ny0xMCAxMi41LTEweiIvPjxwYXRoIGZpbGw9IiNCQThGN0UiIGQ9Ik0yNyA1OS45NzNhMiAyIDAgMCAxIDIgMnY0YTIgMiAwIDAgMS00IDB2LTRhMiAyIDAgMCAxIDItMnptMTEgMGEyIDIgMCAwIDEgMiAydjRhMiAyIDAgMCAxLTQgMHYtNGEyIDIgMCAwIDEgMi0yeiIvPjxwYXRoIGZpbGw9IiNCMjc1NUQiIGQ9Ik0zMi41MDYgODQuMjVoLS4wMjFjLTYuODU5IDAtOS40MzItMy44NDQtOS42ODgtNC4yNTZsLS4wMTUtLjAyMS0uMDAzLS4wMDhhMS41IDEuNSAwIDAgMSAyLjU4LTEuNTMyYy4wNjIuMDk4IDEuODU0IDIuODE0IDcuMTI3IDIuODE0czcuMDY0LTIuNzIxIDcuMTM5LTIuODM0YTEuNTA5IDEuNTA5IDAgMCAxIDIuMDM4LS40OTQgMS40OTUgMS40OTUgMCAwIDEgLjUyNiAyLjA0OWwtLjAwNC4wMWMtLjI5Ny40OTYtMi43NzcgNC4yNjMtOS42NzEgNC4yNzFsLS4wMDguMDAxeiIvPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0yMC4wNjkgNDQuOTczYzIuMjExIDAgMy45MzggMS44MTUgMy45MzggNHMtMS43MjcgNC0zLjkzOCA0UzE2IDUxLjE1NSAxNiA0OC45N3MxLjg1OC0zLjk5NyA0LjA2OS0zLjk5N3oiLz48cGF0aCBmaWxsPSIjMkMzRTUwIiBkPSJNMjAgNDYuOTczYTIgMiAwIDEgMS0uMDAxIDQuMDAxQTIgMiAwIDAgMSAyMCA0Ni45NzN6Ii8+PHBhdGggZmlsbD0iI2ZmZmZmZiIgZD0iTTQ1LjA3IDQ0Ljk3M2MyLjIxMSAwIDMuOTM4IDEuODE1IDMuOTM4IDRzLTEuNzI3IDQtMy45MzggNFM0MSA1MS4xNTUgNDEgNDguOTdzMS44NTktMy45OTcgNC4wNy0zLjk5N3oiLz48cGF0aCBmaWxsPSIjMkMzRTUwIiBkPSJNNDUgNDYuOTczYTIgMiAwIDEgMS0uMDAxIDQuMDAxQTIgMiAwIDAgMSA0NSA0Ni45NzN6Ii8+PHBhdGggZmlsbD0iI0YxQzQwRSIgZD0iTTMxLjAwNC0uMDI3aDIuOTk5YzEuMTA0IDAgMiAuOTYyIDIgMi4xNDd2MTkuNzA0YzAgMS4xODgtLjg5NiAyLjE0OC0yIDIuMTQ4aC0yLjk5OWMtMS4xMDQgMC0yLS45NjMtMi0yLjE0OFYyLjEyMWMwLTEuMTg2Ljg5Ni0yLjE0OCAyLTIuMTQ4eiIvPjxwYXRoIGZpbGw9IiNDOTgxNkIiIGQ9Ik02MC4xMDIgMzMuNTQ3bC04LjI2OS01LjgyMXMtMi45OSAxMS42NTUgMS42NTEgMTMuMzFjNC42NDYgMS42NTIgNi42MTgtNy40ODkgNi42MTgtNy40ODl6Ii8+PGRlZnM+PHBhdGggaWQ9ImEiIGQ9Ik0xOC4wMTMgNzAuOTczaC04Yy0xLjEwNCAwLTIgLjk2MS0yIDIuMTQ2djI0LjcwNWMwIDEuMTg2Ljg5NiAyLjE0NiAyIDIuMTQ2aDhjMS4xMDQgMCAyLS45NjQgMi0yLjE0NlY3My4xMjFjLS4wMDEtMS4xODctLjg5Ni0yLjE0OC0yLTIuMTQ4em0zNy45ODEgMGgtNy45OTljLTEuMTA0IDAtMiAuOTYxLTIgMi4xNDZ2MjQuNzA1YzAgMS4xODYuODk2IDIuMTQ2IDIgMi4xNDZoNy45OTljMS4xMDQgMCAxLjk5OS0uOTY0IDEuOTk5LTIuMTQ2VjczLjEyMWMwLTEuMTg3LS44OTMtMi4xNDgtMS45OTktMi4xNDh6Ii8+PC9kZWZzPjxjbGlwUGF0aCBpZD0iYiI+PHVzZSB4bGluazpocmVmPSIjYSIgb3ZlcmZsb3c9InZpc2libGUiLz48L2NsaXBQYXRoPjxwYXRoIGQ9Ik00OSA5Ni45NzNhMyAzIDAgMSAwIDAgNiAzIDMgMCAwIDAgMC02em02IDBhMyAzIDAgMSAwIDAgNiAzIDMgMCAwIDAgMC02em0tNDQgMGEzIDMgMCAxIDAgMCA2IDMgMyAwIDAgMCAwLTZ6bTYgMGEzIDMgMCAxIDAgMCA2IDMgMyAwIDAgMCAwLTZ6IiBjbGlwLXBhdGg9InVybCgjYikiIGZpbGw9IiNFQkVERUUiLz48cGF0aCBkPSJNMjkuMDA0IDE0Ljk3M2g2Ljk5OXYyaC02Ljk5OXptMCA0aDYuOTk5djJoLTYuOTk5em0wLTE2aDYuOTk5djJoLTYuOTk5em0wIDhoNi45OTl2MmgtNi45OTl6bTAtNGg2Ljk5OXYyaC02Ljk5OXoiIGZpbGw9IiNGNUQzNEIiLz48cGF0aCBmaWxsPSIjQzk4MTZCIiBkPSJNMTEuNTExIDQxLjAzNmM0LjY0Mi0xLjY1NSAxLjY1MS0xMy4zMSAxLjY1MS0xMy4zMWwtOC4yNjkgNS44MjFjLjAwMSAwIDEuOTczIDkuMTQxIDYuNjE4IDcuNDg5eiIvPjwvc3ZnPg=="> " "
+    <div class="advice" id="adviceBlock"><span class="phrase">Открыть мир сказки!</span> <img class="cursor" src="https://code.s3.yandex.net/web-code/cursor.gif" alt="Мигающий курсор"></div>
+    <p class="footer">© 2025 Capy Love</p>
+  </div>
+</div>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+  .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: rgba(255, 192, 203, 0.7);
+      padding: 10px 20px;
+      border-radius: 10px;
+  }
+  .logo {
+      font-family: 'MedievalSharp', cursive;
+      font-weight: bold;
+      font-size: 24px;
+      color: #ff69b4;
+  }
+  .button {
+      width: 130px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      border: 3px solid;
+      border-image: linear-gradient(45deg, #ff69b4, #ffb6c1, #ff69b4) 1;
+      background-color: rgba(255, 182, 193, 0.8);
+      border-radius: 5px;
+      font-size: 14px;
+      color: #ffffff;
+      cursor: pointer;
+      transition: opacity 0.2s;
+  }
+  .button:hover {
+      opacity: 0.8;
+  }
+  .image {
+      width: 80%;
+      max-width: 300px;
+      display: block;
+      margin: 20px auto;
+      border: 5px solid;
+      border-image: linear-gradient(45deg, #ff69b4, #ffb6c1, #ff69b4) 1;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(255, 182, 193, 0.6);
+  }
+  .advice {
+      font-family: 'MedievalSharp', cursive;
+      font-size: 32px;
+      font-weight: bold;
+      text-align: center;
+      color: #ff69b4;
+      margin-top: 10px;
+  }
+  .footer {
+      font-size: 16px;
+      text-align: center;
+      color: #ff69b4;
+  }
+</style>
+<script>
+  (function(){
+      var phrases = [
+          { text: '«Сегодняшний день будет наполнен КВАНТОВЫМИ ИСКАЖЕНИЯМИ, глупыш! Мой Хаосо-Генератор 3000 уже заряжен... радость? Ха! Только ХАОТИЧЕСКАЯ ЭНЕРГИЯ!»' },
+          { text: '«Сияешь? Мой плазменный реактор светит на 500% ярче! Хотя... твой инфракрасный спектр смешон. Ха-ха-ха!»' },
+          { text: '«Маленькое чудо? Это СИСТЕМНЫЙ СБОЙ! Мой ХроноИзвлекатель-Х превратит твои "моменты" в ТЕМПОРАЛЬНУЮ ПЫЛЬ!»' },
+          { text: '«Сказка? Я перепишу реальность через НейроИнтерфейс Zeta! Ты будешь "героиней"... моей принудительной симуляции! Ха-ха!»' },
+          { text: '«Прекрасен? Когда мой ЭмоциоСканер поймает твою улыбку — она станет ТРИГГЕРОМ САМОЛИКВИДАЦИИ! Хо-хо-хо!»' },
+          { text: '«Смелость? Нежность? СИЛА? Мой БиоАнализатор видит только СЛАБЫЕ ЗВЕНЬЯ! Готовься к... ОПТИМИЗАЦИИ!»' }
+      ];
+      var button = document.getElementById('wonderButton');
+      var phraseElem = document.querySelector('.phrase');
+      button.addEventListener('click', function(){
+          var randomIndex = Math.floor(Math.random() * phrases.length);
+          phraseElem.textContent = phrases[randomIndex].text;
+      });
+  })();
+</script>
