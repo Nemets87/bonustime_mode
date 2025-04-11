@@ -111,3 +111,104 @@ u-text-left, u-text-center, u-text-right
 u-table-default
 Примечание:
 Для создания собственных классов используйте уникальные префиксы, например u-, во избежание наложения сторонних стилей.
+=============================================================================================================================
+<div class="u-container" style="background: #000000; border: 3px solid #ff69b4; border-radius: 8px; padding: 20px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7); text-align: center; max-width: 400px; margin: 0 auto;">
+  <div class="u-container-content u-pd-top-3 u-pd-bottom-3">
+    <div class="header">
+      <p class="logo">Capybara Princess</p>
+      <div class="button" id="wonderButton">
+        Узнать чудо
+      </div>
+    </div><img class="image" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48Y2lyY2xlIGN4PSIxMDAiIGN5PSIxMDAiIHI9IjgwIiBmaWxsPSIjZmY2OWI0Ii8+PC9zdmc+" alt="Круглое изображение в ретро-стиле" style="image-rendering: pixelated; border-radius: 50%;">
+    <div class="advice" id="adviceBlock"><span class="phrase">Открыть мир сказки!</span> <img class="cursor" src="https://code.s3.yandex.net/web-code/cursor.gif" alt="Мигающий курсор"></div>
+    <p id="u-contacts" class="footer">© 2025 Capy Love</p>
+  </div>
+</div>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+  body {
+      background-color: #111;
+      color: #ff69b4;
+      font-family: 'Press Start 2P', cursive;
+      margin: 0;
+      padding: 0;
+  }
+  .u-container {
+      margin-top: 20px;
+  }
+  .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #222;
+      padding: 10px 20px;
+      border: 2px solid #ff69b4;
+      border-radius: 4px;
+  }
+  .logo {
+      font-size: 16px;
+      color: #ffb6c1;
+      margin: 0;
+  }
+  /* Кнопка, стилизованная в духе Марио и Принцессы Пич */
+  .button {
+      width: 140px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      border: 2px solid #00aaff;
+      background-color: #ff69b4;
+      color: #ffffff;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.2s, transform 0.1s;
+      font-size: 10px;
+      user-select: none;
+  }
+  .button:hover {
+      background-color: #ff85c1;
+      transform: translateY(-2px);
+  }
+  .button:active {
+      transform: translateY(0);
+  }
+  /* Стили для изображения с ретро-эффектом */
+  .image {
+      width: 80%;
+      max-width: 300px;
+      display: block;
+      margin: 20px auto;
+      border: 3px solid #ff69b4;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  }
+  .advice {
+      margin-top: 10px;
+      font-size: 12px;
+      color: #00aaff;
+  }
+  .footer {
+      font-size: 10px;
+      text-align: center;
+      margin-top: 15px;
+      color: #ffb6c1;
+  }
+</style>
+<script>
+  (function(){
+      var phrases = [
+          { text: '«Сегодняшний день будет как уровень в ретро-игре!»' },
+          { text: '«Нажми кнопку и начни своё приключение, словно в Марио!»' },
+          { text: '«Пусть каждый пиксель сегодня приносит радость!»' },
+          { text: '«Готов к испытаниям, Принцесса? Вперёд, к новым приключениям!»' },
+          { text: '«Жми, и твоя жизнь станет ярче, как аркадная игра!»' },
+          { text: '«Отправляемся в путешествие по миру 8-битных чудес!»' }
+      ];
+      var button = document.getElementById('wonderButton');
+      var phraseElem = document.querySelector('.phrase');
+      button.addEventListener('click', function(){
+          var randomIndex = Math.floor(Math.random() * phrases.length);
+          phraseElem.textContent = phrases[randomIndex].text;
+      });
+  })();
+</script>
